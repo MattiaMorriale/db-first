@@ -1,2 +1,23 @@
 TABELLA: Auto
 
+Numero_telaio: SMALLINT, PK
+Casa_automobilistica: VARCHAR(30), NOT NULL
+Modello: VARCHAR(30), NOT NULL
+Prezzo: FLOAT(8,2), NOT NULL
+Chilometraggio: MEDIUMINT, NULL
+Tipo_di_cambio: VARCHAR(30), NULL
+Anno: DATE, NULL
+Carburante: VARCHAR(30), NOT NULL
+Potenza: SMALLINT, NOT NULL
+Carrozzeria: VARCHAR(30), NULL
+Cilindrata: SMALLINT, NOT NULL
+Trazione: VARCHAR(30), NULL
+Posti: TINYINT, NOT NULL
+Porte: TINYINT, NOT NULL
+Marce: TINYINT, NOT NULL
+Cilindri: TINYINT, NULL
+Colore: VARCHAR(30), NOT NULL
+Descrizione: VARCHAR(255), NULL
+Classe_emissioni: VARCHAR(30), NOT NULL
+
+______________________________________________________
